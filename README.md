@@ -45,17 +45,17 @@ Explore two playable levels, collect enough Light Orbs to brighten the world, an
 
 <p align="center">
   <b>Main Menu</b><br>
-  <img src="PASTE_RAW_GITHUB_IMAGE_LINK_HERE.png" width="700">
+  <img src="The Balance of Light Main Menu.png" width="700">
 </p>
 
 <p align="center">
   <b>Gameplay</b><br>
-  <img src="PASTE_RAW_GITHUB_IMAGE_LINK_HERE.png" width="700">
+  <img src="The Balance of Light Gameplay.png" width="700">
 </p>
 
 <p align="center">
   <b>Win / Ending Screen</b><br>
-  <img src="PASTE_RAW_GITHUB_IMAGE_LINK_HERE.png" width="700">
+  <img src="The Balance of Light Winning Screen.png" width="700">
 </p>
 
 ---
