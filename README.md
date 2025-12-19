@@ -1,84 +1,91 @@
-✨ The Balance of Light
+# ✨ The Balance of Light
 
 A retro-pixel 2D platformer built in Godot 4.5.
 
-Collect Light Orbs to push back darkness, avoid demons, and activate the Exit Portal to advance through levels.
+Collect Light Orbs, push back the darkness, avoid demons, and activate the Exit Portal to win.
 
-🎮 Overview
+---
 
-Darkness is spreading across the realm, and only scattered Light Orbs can restore balance.
+## 🎮 Overview
 
-Angels send Light Orbs to help you, but demons patrol the world and will strike if you touch them.
+Darkness is spreading across the realm, and the world is losing its light.
 
-Explore two playable levels, collect enough orbs to increase the world’s brightness, and reach the Exit Portal to win.
+Angels send Light Orbs to help you restore balance, but demons patrol the land and will strike if you touch them.
 
-✨ Features
+Explore two playable levels, collect enough Light Orbs to brighten the world, and reach the Exit Portal to escape.
 
-🎵 Dynamic Music System
+---
 
-Calm background music during normal gameplay
+## ✨ Features
 
-Intense chase music when danger is active
+* **🎵 Dynamic Music System**
+  * Calm background music during normal gameplay
+  * Fast-paced chase music when enemies detect the player
+  * Music resets when escaping pursuit
+  * Triumph sound when completing a level / winning
+  * Death sound + failure screen on enemy collision
+* **🕹️ Gameplay**
+  * Physics-based movement and jumping (platformer controls)
+  * Light Orb collection system with progress tracking
+  * Brightness increases as orbs are collected (dark → light)
+  * Exit Portal activates after collecting the required number of orbs
+  * Scene transitions between two playable levels
+  * Working intro cutscene, win ending, and failure ending
+* **📟 HUD**
+  * Orb counter displayed on screen
+  * Light percentage displayed so the player knows progress
+  * Clear objective feedback toward portal activation
+* **👼 NPC + MOBs**
+  * Angels assist by spawning/dropping Light Orbs
+  * Demons patrol and punish player contact
 
-Music returns to calm once the player escapes
+---
 
-Triumph sound on level success / victory
+## 🖼️ Screenshots
 
-Death sound + failure screen on enemy collision
+<p align="center">
+  <b>Main Menu</b><br>
+  <img src="PASTE_RAW_GITHUB_IMAGE_LINK_HERE.png" width="700">
+</p>
 
-🕹️ Gameplay
+<p align="center">
+  <b>Gameplay</b><br>
+  <img src="PASTE_RAW_GITHUB_IMAGE_LINK_HERE.png" width="700">
+</p>
 
-Physics-based movement and jumping (platformer controls)
+<p align="center">
+  <b>Win / Ending Screen</b><br>
+  <img src="PASTE_RAW_GITHUB_IMAGE_LINK_HERE.png" width="700">
+</p>
 
-Collectable Light Orbs with progress tracking
+---
 
-Brightness increases as orbs are collected (dark → light)
-
-Exit Portal activates after collecting the required number of orbs
-
-Scene transitions between two playable levels
-
-Ending sequences for win and loss outcomes
-
-🧠 Enemies + Helpers
-
-Demon enemies patrol and punish player contact
-
-Angel NPCs periodically spawn/drop orbs to assist the player
-
-📟 HUD
-
-Displays orb count and current light percentage
-
-Clear progress feedback toward portal activation
-
-🖼️ Screenshots
-<p align="center"> <b>Main Menu</b><br> <img src="PASTE_YOUR_IMAGE_LINK_HERE.png" width="700"> </p> <p align="center"> <b>Gameplay</b><br> <img src="PASTE_YOUR_IMAGE_LINK_HERE.png" width="700"> </p> <p align="center"> <b>Win / Ending Screen</b><br> <img src="PASTE_YOUR_IMAGE_LINK_HERE.png" width="700"> </p>
-▶️ How to Play
+## ▶️ How to Play
 
 If you download the project as a zip file, follow these steps to run the game in Godot:
 
-Download the repository (usually as a zip file) or clone it.
+1.  **Download** the repository (usually as a zip file) or clone it.
+2.  **Unzip/Extract** the contents of the zip file to create a regular folder.
+3.  Open **Godot 4.5+**.
+4.  Click **Import**.
+5.  Navigate to and select the **unzipped project folder**.
+6.  Open the `project.godot` file inside that folder.
+7.  Press **F5** to run the game.
 
-Unzip/Extract the contents of the zip file to create a regular folder.
+---
 
-Open Godot 4.5+.
+## ⌨️ Controls
 
-Click Import.
+| Action | Input (Keys) |
+| :--- | :--- |
+| **Move** | Arrow Keys / A-D |
+| **Jump** | Spacebar |
+| **Advance Dialog / Cutscene** | Enter |
+| **Pause / Menu** | Esc |
 
-Navigate to and select the unzipped project folder.
+---
 
-Open the project.godot file inside that folder.
+## 📦 Project Info
 
-Press F5 to run the game.
-
-⌨️ Controls
-Action	Input (Keys)
-Move	Arrow Keys / A-D
-Jump	Spacebar
-Advance Dialog / Cutscene	Enter / Spacebar
-Pause / Menu	Esc
-📦 Project Info
-
-Developed as part of SDEV248 at Ivy Tech
+Developed as part of SDEV248 at Ivy Tech  
 Created by Jason Hollin
